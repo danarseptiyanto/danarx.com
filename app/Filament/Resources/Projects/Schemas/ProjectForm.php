@@ -16,6 +16,7 @@ class ProjectForm
     public static function configure(Schema $schema): Schema
     {
         return $schema
+            ->columns(1)
             ->components([
                 Section::make('Project Details')
                     ->description('Add your project details here')
@@ -25,6 +26,7 @@ class ProjectForm
                                 TextInput::make('title'),
                                 TextInput::make('slug')
                                     ->required()
+                                    ->placeholder('contoh-format-seperti-ini')
                                     ->rule('alpha_dash')
                                     ->afterStateUpdated(
                                         fn($state, callable $set) =>
