@@ -10,9 +10,15 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-        "Noto Color Emoji";
+    --font-sans:
+        "Manrope", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-    --color-primary: red;
+    --color-bg-secondary: #171717;
+    --color-bg-primary: #0a0a0a;
+    --color-line: #333333;
+    --color-accent-secondary: #333333;
+    --color-accent-primary: #f97316;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #999999;
 }
