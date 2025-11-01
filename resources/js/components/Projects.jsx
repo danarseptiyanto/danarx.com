@@ -10,28 +10,28 @@ export default function Projects() {
           <Link href="#">
             <img
               src="/img/ui/project1.png"
-              className="bg-line aspect-video"
+              className="bg-line aspect-video w-full"
               alt="Project1"
             />
           </Link>
           <Link href="#">
             <img
               src="/img/ui/project2.png"
-              className="bg-line aspect-video"
+              className="bg-line aspect-video w-full"
               alt="Project1"
             />
           </Link>
           <Link href="#">
             <img
               src="/img/ui/project3.png"
-              className="bg-line aspect-video"
+              className="bg-line aspect-video w-full"
               alt="Project1"
             />
           </Link>
           <Link href="#">
             <img
               src="/img/ui/project3.png"
-              className="bg-line aspect-video"
+              className="bg-line aspect-video w-full"
               alt="Project1"
             />
           </Link>

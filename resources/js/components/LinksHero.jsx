@@ -5,7 +5,7 @@ export default function LinksHero({ url, name }) {
   return (
     <Link
       href={url}
-      className="border-t-line hover:bg-accent-primary/90 flex items-center justify-between border-t pl-6 transition-colors duration-300"
+      className="border-t-line hover:border-bg-accent-primary/90 hover:bg-accent-primary/90 flex items-center justify-between border-t pl-6 transition-colors duration-300"
     >
       <p className="text-text-primary">{name}</p>
       <div className="bg-line flex aspect-square h-full items-center justify-center">

@@ -23,7 +23,7 @@ export default function Hero() {
               problems.
             </div>
             <div className="flex justify-between">
-              <div className="bg-accent-primary flex aspect-square w-[180px] items-center justify-center">
+              <div className="bg-accent-primary border-t-line flex aspect-square w-[180px] items-center justify-center border-t">
                 <svg
                   width="96"
                   height="96"
