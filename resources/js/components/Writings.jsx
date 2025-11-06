@@ -5,12 +5,12 @@ export default function Writings() {
   return (
     <>
       <div className="border-b-line mx-auto border-b">
-        <div className="border-x-line mx-10 border-x">
-          <div className="px-9 py-9">
-            <p className="text-text-primary text-[32px] font-semibold">
+        <div className="border-x-0-line border-x-0 md:mx-10 md:border-x">
+          <div className="px-5 py-6 md:px-9 md:py-9">
+            <p className="text-text-primary mb-2.5 text-xl font-semibold md:text-[32px]">
               Writings
             </p>
-            <p className="text-text-secondary max-w-[821px] text-xl">
+            <p className="text-text-secondary max-w-[821px] text-base md:text-xl">
               We are the creators, maintainers, and contributors of some of the
               most critical infrastructure projects in the JavaScript ecosystem.
             </p>
@@ -30,7 +30,7 @@ export default function Writings() {
         </div>
       </div>
       <div className="border-b-line mx-auto border-b">
-        <div className="border-x-line mx-10 border-x py-7"></div>
+        <div className="border-x-0-line border-x-0 py-5 md:mx-10 md:border-x md:py-7"></div>
       </div>
     </>
   );

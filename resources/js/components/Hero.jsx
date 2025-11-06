@@ -7,23 +7,23 @@ export default function Hero() {
   return (
     <>
       <div className="border-b-line mx-auto border-b">
-        <div className="border-x-line mx-10 grid grid-cols-2 border-x">
+        <div className="border-x-0-line mx-0 flex grid-cols-2 flex-col-reverse border-x-0 md:mx-10 md:grid md:border-x">
           <div className="border-r-line border-r">
-            <div className="border-b-line border-b px-9 py-6">
+            <div className="border-b-line border-b px-5 py-6 md:px-9">
               <PlusIconHero />
-              <h1 className="text-text-primary max-w-[600px] py-9 text-[60px] leading-16 font-semibold">
+              <h1 className="text-text-primary max-w-[600px] py-7 text-[36px] leading-tight font-semibold md:py-9 md:text-[60px] md:leading-16">
                 Freelance Fullstack Web Dev Available For Hire
               </h1>
               <PlusIconHero />
             </div>
-            <div className="text-text-primary p-9 text-xl leading-relaxed">
+            <div className="text-text-primary p-5 py-7 text-lg leading-relaxed md:p-9 md:py-9 md:text-xl">
               Hi, I'm Danar Septiyanto, a freelance fullstack web developer
               based in Indonesia. I'm currently working as a freelance web
               developer. I love to build web applications that solve real
               problems.
             </div>
             <div className="flex justify-between">
-              <div className="bg-accent-primary border-t-line flex aspect-square w-[180px] items-center justify-center border-t">
+              <div className="bg-accent-primary border-t-line hidden aspect-square w-[180px] items-center justify-center border-t md:flex">
                 <svg
                   width="96"
                   height="96"
@@ -50,7 +50,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="border-b-line mx-auto border-b">
-        <div className="border-x-line mx-10 border-x py-7"></div>
+        <div className="border-x-0-line mx-0 border-x-0 py-4 md:mx-10 md:border-x md:py-7"></div>
       </div>
     </>
   );

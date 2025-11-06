@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <>
       <div className="border-b-line mx-auto border-b">
-        <div className="border-x-line mx-10 border-x">
+        <div className="border-x-0-line mx-10 border-x-0 md:border-x">
           <div className="flex justify-between">
             <div className="px-9 py-9">
               <p className="text-text-primary max-w-[744px] text-[28px]">
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-b-line mx-auto border-b">
-        <div className="border-x-line mx-10 flex h-[85px] items-center justify-between border-x px-9">
+        <div className="border-x-0-line mx-10 flex h-[85px] items-center justify-between border-x-0 px-9 md:border-x">
           <div className="text-text-primary text-xl">
             Danar Septiyanto © 2025
           </div>

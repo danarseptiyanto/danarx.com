@@ -3,17 +3,19 @@ import React from "react";
 export default function Tools() {
   return (
     <div className="border-b-line mx-auto border-b">
-      <div className="border-x-line bg-bg-secondary mx-10 border-x">
-        <div className="px-9 py-9">
-          <p className="text-text-primary text-[32px] font-semibold">Tools</p>
-          <p className="text-text-primary max-w-[821px] pb-2.5 text-xl">
+      <div className="border-x-0-line bg-bg-secondary border-x-0 md:mx-10 md:border-x">
+        <div className="px-5 py-6 md:px-9 md:py-9">
+          <p className="text-text-primary mb-2.5 text-xl font-semibold md:text-[32px]">
+            Tools
+          </p>
+          <p className="text-text-primary max-w-[821px] pb-1 text-base md:pb-2.5 md:text-xl">
             We are the creators, maintainers, and contributors of some of the
             most critical infrastructure projects in the JavaScript ecosystem.
           </p>
         </div>
-        <div className="border-t-line divide-line grid grid-cols-5 divide-x border-t">
+        <div className="border-t-line divide-line grid grid-cols-2 divide-x border-t md:grid-cols-5">
           <div className="row-span-2 flex w-full items-center justify-center py-10">
-            <div className="flex items-center justify-center gap-3.5">
+            <div className="flex scale-50 items-center justify-center gap-3.5">
               <svg
                 width="51"
                 height="53"
